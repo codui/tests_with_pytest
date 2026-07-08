@@ -10,7 +10,7 @@ pip install pytest<br>
 your_root_dir/  **<-- To run the tests, you need to be here in terminal**<br>
 ├── src/<br>
 ├── tests/<br>
-├── venv/<br>
+├── .venv/<br>
 └── requirements.txt<br>
 <br>
 <br>
@@ -32,11 +32,11 @@ def test_addition():<br>
 <br>
 A class with tests must start with the Test prefix.<br>
 Methods within this class must follow the rule for functions (start with test_).<br>
->   class TestCalculator:
->        def test_addition(self):
->            ...
->        def test_subtraction(self):
->            ...
+>   class TestCalculator:<br>
+>        def test_addition(self):<br>
+>            ...<br>
+>        def test_subtraction(self):<br>
+>            ...<br>
 <br>
 All project files are located in the src folder.<br>
 All test files are located in the tests folder.<br>
