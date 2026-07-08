@@ -56,6 +56,7 @@ Project files | Corresponding test files<br>
 <br>
 The Arrange-Act-Assert pattern is used in testing.<br>
 An example to understand the "Arrange-Act-Assert" pattern.<br>
+
 ```python
 def add(a, b):
     """
