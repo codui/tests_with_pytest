@@ -33,11 +33,11 @@ def test_addition():<br>
 A class with tests must start with the Test prefix.<br>
 Methods within this class must follow the rule for functions (start with test_).<br>
 ```
-class TestCalculator:<br>
-    def test_addition(self):<br>
-        ...<br>
-    def test_subtraction(self):<br>
-        ...<br>
+class TestCalculator:
+    def test_addition(self):
+        ...
+    def test_subtraction(self):
+        ...
 ```
 <br>
 All project files are located in the src folder.<br>
