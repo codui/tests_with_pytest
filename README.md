@@ -32,7 +32,7 @@ def test_addition():<br>
 <br>
 A class with tests must start with the Test prefix.<br>
 Methods within this class must follow the rule for functions (start with test_).<br>
-```
+```python
 class TestCalculator:
     def test_addition(self):
         ...
