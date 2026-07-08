@@ -57,10 +57,10 @@ Project files | Corresponding test files<br>
 The Arrange-Act-Assert pattern is used in testing.<br>
 An example to understand the "Arrange-Act-Assert" pattern.<br>
     def add(a, b):<br>
-    """<br>
-    Эта функция принимает два числа и возвращает их сумму.<br>
-    """<br>
-    return a + b<br>
+        """<br>
+        Эта функция принимает два числа и возвращает их сумму.<br>
+        """<br>
+        return a + b<br>
 <br>
 Arrange: Prepare the data. In this case, these are the numbers 2 and 3 and the expected result is 5.<br>
 Act: We execute the code under test. This is a call to add(2, 3).<br>
