@@ -81,7 +81,7 @@ or<br>
 ## Assert syntax
 assert "expression"<br>
 <br>
-Python evaluates "expression".<br>
+Python evaluates expression.<br>
 If the result is True, nothing happens, and code execution continues.<br>
 If the result is False, assert immediately stops execution and<br>
 raises a special exception, AssertionError.<br>
