@@ -1,15 +1,13 @@
-# 1. Импортируем нашу функцию из папки src
 from src.calculator import add
 
 
-# 2. Пишем тестовую функцию, соблюдая правило именования
 def test_add():
-    # 3. Используем assert для проверки
+    # Using assert to check
     assert add(2, 3) == 5
 
 
-# # ! Провальный тест для примера
-# def test_add_with_wrong_expectation():
-#     """Этот тест специально написан так, чтобы провалиться."""
-#     # Вызываем функцию прямо внутри assert, чтобы увидеть детализацию ошибки
-#     assert add(2, 2) == 5
+# ! Failed test for example
+def test_add_with_wrong_expectation():
+    """This test is specifically designed to fail."""
+    # Call a function directly inside an assert to see the error details
+    assert add(2, 2) == 5

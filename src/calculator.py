@@ -1,5 +1,5 @@
 def add(a, b):
     """
-    Эта функция принимает два числа и возвращает их сумму.
+    Takes two numbers and returns their sum.
     """
     return a + b
