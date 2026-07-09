@@ -1,4 +1,4 @@
-# Pytest для Python-разработчиков: Уверенное автоматизированное тестирование
+# Pytest for Python Developers: Confident automated testing
 
 ## [https://stepik.org/course/259625/promo](https://stepik.org/course/259625/promo) (will open in the same tab)
 
