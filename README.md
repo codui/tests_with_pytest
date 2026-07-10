@@ -97,3 +97,16 @@ When a function receives invalid data, it should not:
 </ul>
 A well-written, reliable function should report a problem immediately. It should raise an exception.
 </p>
+
+
+## pytest.raises syntax for checking exception raising
+
+```python
+def test_divide_by_zero_raises_value_error_with_message():
+    # excinfo - is a wrapper object containing info about the error
+    with pytest.raises(ValueError) as excinfo:
+        divide(10, 0)
+
+    # Check that the error text contains the required phrase
+    assert "You can't divide by zero!" in str(excinfo.value)
+```
